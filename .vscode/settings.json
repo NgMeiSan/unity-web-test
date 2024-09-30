@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Browser Test.sln"
+    "dotnet.defaultSolution": "unity-web-test.sln"
 }
