@@ -1,7 +1,7 @@
 # unity-web-test
 
-Unity version: **2022.3.45f1**
+Unity version: **6000.0.23f1**
 
 A sample unity project for WebGL application.
 
-The built webgl application is within the Builds folder
+The game build is within the WebGL folder
