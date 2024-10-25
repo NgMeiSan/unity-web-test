@@ -4,7 +4,7 @@ using System;
 using AOT;
 
 #if UNITY_WEBGL
-public class JslibManager : MonoBehaviour
+public class JslibExample : MonoBehaviour
 {
     #region  Variables~
 

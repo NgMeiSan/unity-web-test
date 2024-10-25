@@ -5,12 +5,19 @@ mergeInto(LibraryManager.library,
     {
         var script = document.createElement("script");
         script.src = "https://telegram.org/js/telegram-web-app.js";
+        script.body = 
         document.head.appendChild(script);
 
         script.onload = function ()
         {
             console.log("TELEGRAM SCRIPT LOADED");
-            {{{ makeDynCall('v', 'callback') }}} ();
+            {{{ makeDynCall('vi', 'callback') }}} (true);
+        };
+
+        script.onerror = function ()
+        {
+            console.log("TELEGRAM SCRIPT FAILED TO LOAD");
+            {{{ makeDynCall('vi', 'callback') }}} (false);
         };
     },
 

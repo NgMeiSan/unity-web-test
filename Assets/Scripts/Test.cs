@@ -6,4 +6,9 @@ public class Test : MonoBehaviour
     {
         Debug.Log(message);
     }
+
+    public void OpenLink(string link)
+    {
+        Application.OpenURL(link);
+    }
 }

@@ -367,7 +367,7 @@ GameObject:
   - component: {fileID: 576995557}
   - component: {fileID: 576995558}
   m_Layer: 0
-  m_Name: Test
+  m_Name: JslibExample
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
